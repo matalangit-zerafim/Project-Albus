@@ -1,0 +1,23 @@
+﻿<Window x:Class="Project_Albus.MainMenuWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Project_Albus"
+        mc:Ignorable="d"
+        Title="MainMenuWindow" Height="427.2" Width="499.2">
+    <Grid>
+        <Label Content="MAIN MENU" HorizontalAlignment="Left" Margin="191,10,0,0" VerticalAlignment="Top" FontSize="18"/>
+        <Button Content="Master Pegawai" HorizontalAlignment="Left" Margin="81,57,0,0" VerticalAlignment="Top" Width="121" Height="32" Click="Button_Click"/>
+        <Button Content="Master Commodity" HorizontalAlignment="Left" Margin="283,57,0,0" VerticalAlignment="Top" Width="121" Height="32" Click="Button_Click_2"/>
+        <Button Content="Master Customer" HorizontalAlignment="Left" Margin="81,171,0,0" VerticalAlignment="Top" Width="121" Height="32" Click="Button_Click_5"/>
+        <Button Content="Master Service" HorizontalAlignment="Left" Margin="81,111,0,0" VerticalAlignment="Top" Width="121" Height="32" Click="Button_Click_1"/>
+        <Button Content="Master Purchase" HorizontalAlignment="Left" Margin="283,171,0,0" VerticalAlignment="Top" Width="121" Height="32" Click="Button_Click_4"/>
+        <Button Content="Master Department" HorizontalAlignment="Left" Margin="283,111,0,0" VerticalAlignment="Top" Width="121" Height="32" Click="Button_Click_3"/>
+        <Button Content="Master Status" HorizontalAlignment="Left" Margin="81,233,0,0" VerticalAlignment="Top" Width="121" Height="32" Click="Button_Click_6"/>
+        <Button Content="Purchase Report" HorizontalAlignment="Left" Margin="81,295,0,0" VerticalAlignment="Top" Width="121" Height="32"/>
+        <Button Content="Transaction" HorizontalAlignment="Left" Margin="283,233,0,0" VerticalAlignment="Top" Width="121" Height="32" Click="Button_Click_7"/>
+        <Button Content="Transaction Report" HorizontalAlignment="Left" Margin="283,295,0,0" VerticalAlignment="Top" Width="121" Height="32"/>
+
+    </Grid>
+</Window>
